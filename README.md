@@ -5,4 +5,4 @@ xLoader is part of the ArtWorx collection.
 
 Most of the loaders made by community, You can find the credits in the less file of each loader, To use just include the xloader.css file.
 
-Live demo on GitHub: [ArtWorx xLoader](http://anastawfeek.github.io/-ArtWorx-xLoader/)
+Live demo on GitHub: [ArtWorx xLoader](http://anastawfeek.github.io/ArtWorx-xLoader/)
