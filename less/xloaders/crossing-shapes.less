@@ -38,14 +38,14 @@
  
 //xLoaderCrossingShapesBefore
 .keyframes(xLoaderCrossingShapesBefore;{
-	0% {transform: translateX(0px) rotate(0deg)}
-	50% {transform: translateX(50px) scale(1.2) rotate(260deg); background:#2ecc71;border-radius:0px;}
-	100% {transform: translateX(0px) rotate(0deg)}
+	0% {transform: translateX(0px) rotate(0deg); -webkit-transform: translateX(0px) rotate(0deg);}
+	50% {transform: translateX(50px) scale(1.2) rotate(260deg); -webkit-transform: translateX(50px) scale(1.2) rotate(260deg); background:#2ecc71;border-radius:0px;}
+	100% {transform: translateX(0px) rotate(0deg); -webkit-transform: translateX(0px) rotate(0deg);}
 });
 
 //xLoaderCrossingShapesAfter
 .keyframes(xLoaderCrossingShapesAfter;{
-	0% {transform: translateX(0px)}
-	50% {transform: translateX(-50px) scale(1.2) rotate(-260deg);background:#9b59b6;border-radius:0px;}
-	100% {transform: translateX(0px)}
+	0% {transform: translateX(0px); -webkit-transform: translateX(0px);}
+	50% {transform: translateX(-50px) scale(1.2) rotate(-260deg); -webkit-transform: translateX(-50px) scale(1.2) rotate(-260deg); background:#9b59b6;border-radius:0px;}
+	100% {transform: translateX(0px) -webkit-transform: translateX(0px);}
 });
